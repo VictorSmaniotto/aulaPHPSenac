@@ -49,3 +49,5 @@ $funcionario = [
 var_dump($funcionario);
 
 echo $funcionario["cargo"];
+
+echo "<hr>";
