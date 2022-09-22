@@ -73,3 +73,17 @@ echo "<br>";
 echo "Cargo: ".$colaborador[2]['cargo'];
 echo "<br>";
 echo "Curso: ".$colaborador[2]['cursos'][0];
+
+echo "<hr>";
+echo "<br>";
+
+foreach ($colaborador as $item) {
+    echo "Nome: ".$item['nome'];
+    echo "<br>";
+    echo "Cargo: ".$item['cargo'];
+    echo "<br>";
+    echo "Idade: ".$item['idade'];
+    echo "<br>";
+    echo "Cursos: ".implode(", ", $item['cursos']);
+    echo "<hr>";
+};
