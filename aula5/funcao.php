@@ -94,7 +94,7 @@ echo "<br>";
 echo "<hr>";
 
 echo "Função Inverter Data <br>";
-echo inverte_data("25/07/1998");
+echo inverte_data("29/09/2022");
 echo "<br>";
 echo "<hr>";
 
