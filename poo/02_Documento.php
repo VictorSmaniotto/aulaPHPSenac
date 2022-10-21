@@ -48,7 +48,7 @@ class CPF extends Documento
     //    $somatorioX += ($cpfX[6] * 4);
     //    $somatorioX += ($cpfX[7] * 3);
     //    $somatorioX += ($cpfX[8] * 2);
-
+        
     //    echo $somatorioX;
 
        for($index = 0;$index < 9; $index++)
