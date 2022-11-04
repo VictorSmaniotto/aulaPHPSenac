@@ -165,7 +165,7 @@ echo "<br> CPF: " . $cpfVictor->formata();
 
 echo "<hr>";
 
-$cnpj = new CNPJ('03.709.814/0025-65');
+$cnpj = new CNPJ('03.709.814/0025-55');
 
 echo $cnpj->formata();
 echo "<br>";
